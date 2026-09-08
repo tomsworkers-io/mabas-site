@@ -2,6 +2,11 @@ title: mybaseballstar
 description: 팀이 아니라 선수를 봅니다 — KBO 선수 알림 앱
 lang: ko-KR
 
+# absolute_url 이 붙일 앞부분이다. og:url 과 canonical 은 절대 주소여야
+# 하는데 레이아웃에 홈 주소가 박혀 있었다. 페이지가 스스로 제 주소를
+# 말하게 둔다. CNAME 과 같은 주소를 적는다.
+url: https://mybaseballstar.app
+
 # ⚠️ 테마를 쓰지 않는다.
 #
 # jekyll-theme-minimal 은 머리말에 [View the Project on GitHub
